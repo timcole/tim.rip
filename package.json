@@ -1,0 +1,37 @@
+{
+  "name": "tim.rip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothyCole/tim.rip.git"
+  },
+  "author": "Timothy Cole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimothyCole/tim.rip/issues"
+  },
+  "homepage": "https://github.com/TimothyCole/tim.rip#readme",
+  "dependencies": {
+    "apollo-server-micro": "^2.12.0",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.3.5",
+    "polished": "^3.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "@types/react": "^16.9.34",
+    "@types/styled-components": "^5.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "typescript": "^3.8.3"
+  }
+}

@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;800&display=swap');
+
+html, body, #__next {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Baloo Paaji 2', cursive;
+}
