@@ -1,12 +1,12 @@
-import { NextPage, NextPageContext } from "next";
-import { fetcher, host } from "../lib/fetcher";
-import { Clip } from "../interfaces/clips";
-import ErrorPage from "./_error";
-import styled from "styled-components";
-import { timeSince } from "../lib/timeSince";
-import { ClipsBody, Heading } from "../components/clips";
-import Link from "next/link";
-import Head from "next/head";
+import { NextPage, NextPageContext } from 'next';
+import { fetcher, host } from '../lib/fetcher';
+import { Clip } from '../interfaces/clips';
+import ErrorPage from './_error';
+import styled from 'styled-components';
+import { timeSince } from '../lib/timeSince';
+import { ClipsBody, Heading } from '../components/clips';
+import Link from 'next/link';
+import Head from 'next/head';
 
 interface Props {
   id?: string;
@@ -76,10 +76,10 @@ ClipPage.getInitialProps = async ({ query }: NextPageContext) => {
       id,
       clip: data?.clip,
       error:
-        (!data?.clip && "Clip not found") || (errors && errors[0]?.message),
+        (!data?.clip && 'Clip not found') || (errors && errors[0]?.message),
     };
   } catch (e) {
-    return { error: "Clip not found" };
+    return { error: 'Clip not found' };
   }
 };
 
@@ -88,6 +88,10 @@ export default ClipPage;
 const VideoContainer = styled.div`
   position: relative;
   padding-bottom: 56.25%;
+
+  @media only screen and (min-width: 2100px) {
+    padding-bottom: 45.25%;
+  }
 `;
 
 const VideoPlayer = styled.iframe`
