@@ -6,7 +6,7 @@ This project uses Medal.tv's API to cache a users clips and allows access to the
 ---
 
 ### Clips Page
-![](https://cdn.tcole.me/tim.rip.png)
+![](https://cdn.t.pics/tim.rip.png)
 
 ### Clip View
-![](https://cdn.tcole.me/tim.rip.clip.png)
+![](https://cdn.t.pics/tim.rip.clip.png)

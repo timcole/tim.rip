@@ -1,7 +1,7 @@
-import { FunctionComponent } from "react";
-import styled from "styled-components";
-import Link from "next/link";
-import Head from "next/head";
+import { FunctionComponent } from 'react';
+import styled from 'styled-components';
+import Link from 'next/link';
+import Head from 'next/head';
 
 export const Layout: FunctionComponent = ({ children }) => {
   return (
@@ -39,8 +39,8 @@ export const Layout: FunctionComponent = ({ children }) => {
         {children}
         <Footer>
           Copyright &copy; 1997-{new Date().getFullYear()} - Timothy Cole - All
-          Rights Reserved. —{" "}
-          <a href="https://github.com/TimothyCole/tim.rip" target="_blank">
+          Rights Reserved. —{' '}
+          <a href="https://github.com/timcole/tim.rip" target="_blank">
             Star on GitHub
           </a>
         </Footer>

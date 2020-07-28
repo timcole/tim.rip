@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TimothyCole/tim.rip.git"
+    "url": "git+https://github.com/timcole/tim.rip.git"
   },
   "author": "Timothy Cole",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TimothyCole/tim.rip/issues"
+    "url": "https://github.com/timcole/tim.rip/issues"
   },
-  "homepage": "https://github.com/TimothyCole/tim.rip#readme",
+  "homepage": "https://github.com/timcole/tim.rip#readme",
   "dependencies": {
     "apollo-server-micro": "^2.14.2",
     "isomorphic-fetch": "^2.2.1",
