@@ -29,8 +29,8 @@ const ClipPage: NextPage<Props> = ({ id, clip, error }) => {
         <meta name="twitter:url" content={`${host}/${id}`} />
 
         <meta property="og:title" content={clip.contentTitle} />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content={clip.contentThumbnail} />
+        <meta property="og:type" content="video" />
+        <meta property="og:video" content={clip.directClipUrl} />
         <meta
           property="og:site_name"
           content="Timothy Cole - Software Engineer"
